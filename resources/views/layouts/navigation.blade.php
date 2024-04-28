@@ -21,6 +21,9 @@
                     <x-nav-link :href="route('chirps.favourites')" :active="request()->routeIs('chirps.favourites')">
                         {{ __('Favourites') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('pizza.index')" :active="request()->routeIs('pizza.index')">
+                        {{ __('pizza') }}
+                    </x-nav-link>
                 </div>
             </div>
 
